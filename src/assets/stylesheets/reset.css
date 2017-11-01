@@ -8,9 +8,9 @@
 }
 
 input {
-  -webkit-appearance: none;
   border: 1px solid #CCC;
   outline: none;
+  margin: none;
 }
 
 html, body, div, span, applet, object, iframe,

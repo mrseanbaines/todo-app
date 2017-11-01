@@ -1,5 +1,5 @@
 <template>
-  <div class="container pad-2">
+  <div class="container pad">
     <app-base></app-base>
   </div>
 </template>

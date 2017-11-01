@@ -7,7 +7,6 @@ body {
   font-family: 'Quicksand', sans-serif;
   background: #EFEFEF;
   height: 100%;
-  padding: 0 20px;
 }
 
 .container {
@@ -15,14 +14,11 @@ body {
   height: 100%;
   margin: 0 auto;
   background: #FFF;
+  padding: 20px;
 }
 
 .pad {
   padding: 10px;
-}
-
-.pad-2 {
-  padding: 20px;
 }
 
 .full-width {
@@ -33,12 +29,9 @@ body {
   text-align: center;
 }
 
-/*.text-brand {
-  color: #26BBB2;
-}*/
-
 .fa-plus {
   cursor: pointer;
+  color: #333;
 }
 
 .fa-plus:hover {
@@ -46,21 +39,29 @@ body {
   transform: rotate(90deg);
 }
 
-input[type="text"] {
-  display: block;
+.text-input {
   padding: 10px;
   border-radius: 5px;
   outline: none;
-  text-decoration: none;
   color: #333;
   background-color: #fff;
 }
 
-input[type="text"]:focus {
+.text-input:focus {
   border: 1px solid #26BBB2;
 }
 
-input[type="text"].hide {
+.text-input.hide {
   border-color: transparent;
   background: transparent;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+.row {
+  display: flex;
+  align-items: center;
 }
