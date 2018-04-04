@@ -51,17 +51,21 @@ body {
   border: 1px solid #26BBB2;
 }
 
+.error .text-input {
+  border: 1px solid #ff7675;
+}
+
 .text-input.hide {
   border-color: transparent;
   background: transparent;
 }
 
-.completed {
-  text-decoration: line-through;
-  color: #ccc;
-}
-
 .row {
   display: flex;
   align-items: center;
+}
+
+input:checked ~ label {
+  text-decoration: line-through;
+  color: #ccc;
 }
